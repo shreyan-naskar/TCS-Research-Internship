@@ -7,6 +7,16 @@ Notebook work for Indian Sign Language Recognition experiments completed as part
 | Path         | Description                                                        |
 | ------------ | ------------------------------------------------------------------ |
 | `main.ipynb` | Main notebook for Indian Sign Language Recognition experimentation |
+| `req.txt`                | Python dependencies required by the notebook   |
+
+## Setup
+
+From the repository root, install the notebook dependencies:
+
+```bash
+cd ISLR
+pip install -r req.txt
+```
 
 ## Notebook Overview
 

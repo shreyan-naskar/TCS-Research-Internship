@@ -16,7 +16,8 @@ Notebook-based preprocessing workflow for sign-language videos. The pipeline sca
 From the repository root, install the notebook dependencies:
 
 ```bash
-pip install -r video-segmentation/req.txt
+cd video-segmentation
+pip install -r req.txt
 ```
 
 The dependency file includes OpenCV, RapidOCR with ONNX Runtime, tqdm, and NumPy.
