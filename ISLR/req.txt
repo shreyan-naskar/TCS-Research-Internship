@@ -3,6 +3,7 @@ addict==2.4.0
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
 -e git+https://github.com/OpenGVLab/video-mamba-suite.git@ec9108b72d5db59f6d634c94cd0e008228a7b918#egg=causal_conv1d&subdirectory=causal-conv1d
 certifi==2022.12.7
+cffi==2.0.0
 charset-normalizer==2.1.1
 comm @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_comm_1753453984/work
 contourpy==1.3.0
@@ -14,6 +15,7 @@ einops==0.8.2
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1746947292760/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1745502089858/work
 filelock==3.19.1
+flatbuffers==25.12.19
 fonttools==4.60.2
 fsspec==2025.10.0
 grpcio==1.80.0
@@ -37,13 +39,15 @@ MarkupSafe==3.0.2
 matplotlib==3.9.4
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
 mdurl==0.1.2
+mediapipe==0.10.35
 mmengine==0.10.7
 mpmath==1.3.0
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
 networkx==3.2.1
 ninja==1.13.0
 numpy==1.26.4
-opencv-python==4.13.0.92
+opencv-contrib-python==4.11.0.86
+opencv-python==4.11.0.86
 packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1777103621/work
 pandas==2.3.3
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work
@@ -51,11 +55,14 @@ pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_173330192774
 pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work
 pillow==11.3.0
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1746710438/work
+polars==1.36.1
+polars-runtime-32==1.36.1
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1744724089886/work
 protobuf==6.33.6
 psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1740663125313/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
 pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
+pycparser==2.23
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1750615794071/work
 pyparsing==3.3.2
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
@@ -68,6 +75,7 @@ rich==15.0.0
 safetensors==0.7.0
 scipy==1.13.1
 six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
+sounddevice==0.5.5
 stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
 sympy==1.14.0
 tensorboard==2.20.0
@@ -87,6 +95,8 @@ transformers==4.35.2
 triton==2.1.0
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1751643513/work
 tzdata==2026.2
+ultralytics==8.4.61
+ultralytics-thop==2.0.20
 urllib3==1.26.13
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
 Werkzeug==3.1.8
